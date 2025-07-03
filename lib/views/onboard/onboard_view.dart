@@ -29,7 +29,7 @@ class OnboardView extends StatelessWidget {
             child: Align(
               alignment: Alignment.topCenter,
               child: Image.asset(
-                "assets/myImg/logo.jpg",
+                "assets/myImg/tyilcom.png",
                 width: AppSize.appSize250 ,
                 height: AppSize.appSize116,
               ),

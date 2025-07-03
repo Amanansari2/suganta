@@ -27,7 +27,7 @@ class CommercialOfficeSpaceProperties extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                "Office-Space Properties",
+                "Office Properties",
                 style: AppStyle.heading3SemiBold(color: AppColor.black),
               ),
               GestureDetector(
@@ -98,7 +98,7 @@ class CommercialOfficeSpaceProperties extends StatelessWidget {
           }
 
           return SizedBox(
-            height: 440,
+            height: 460,
             child: ListView.builder(
                 shrinkWrap: true,
                 scrollDirection: Axis.horizontal,

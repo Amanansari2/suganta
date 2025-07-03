@@ -213,7 +213,7 @@ class DrawerView extends StatelessWidget {
                         onTap: () async {
                           if (index == AppSize.size0) {
                             Get.back();
-                            Get.toNamed(AppRoutes.notificationView);
+                            // Get.toNamed(AppRoutes.notificationView);
                           } else if (index == AppSize.size1) {
                             Get.back();
                             Get.toNamed(AppRoutes.searchView);

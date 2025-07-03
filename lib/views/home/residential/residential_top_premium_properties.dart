@@ -27,7 +27,7 @@ class ResidentialTopPremiumProperties extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                "Top-Premium Properties",
+                "Premium Properties",
                 style: AppStyle.heading3SemiBold(color: AppColor.black),
               ),
               GestureDetector(
@@ -100,7 +100,7 @@ class ResidentialTopPremiumProperties extends StatelessWidget {
           }
 
           return SizedBox(
-            height: 440,
+            height: 460,
             child: ListView.builder(
                 shrinkWrap: true,
                 scrollDirection: Axis.horizontal,

@@ -743,7 +743,7 @@ class AddPropertyDetailsView extends StatelessWidget {
       ),
       child: CommonButton(
         onPressed: () {
-          Get.toNamed(AppRoutes.addPhotosAndPricingView);
+          // Get.toNamed(AppRoutes.addPhotosAndPricingView);
         },
         backgroundColor: AppColor.primaryColor,
         child: Text(

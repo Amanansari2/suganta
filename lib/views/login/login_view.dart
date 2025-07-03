@@ -47,7 +47,7 @@ class LoginView extends StatelessWidget {
                   Align(
                     alignment: Alignment.topCenter,
                     child: Image.asset(
-                      "assets/myImg/logo.jpg",
+                      "assets/myImg/tyilcom.png",
                       width: AppSize.appSize282 ,
                       height: AppSize.appSize150,
                     ),

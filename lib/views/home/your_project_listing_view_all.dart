@@ -4,10 +4,8 @@ import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:intl/intl.dart';
 import 'package:tytil_realty/configs/app_string.dart';
-import 'package:tytil_realty/views/home/widget/list_project_card.dart';
 import 'package:tytil_realty/views/home/widget/list_your_project_card.dart';
 import 'package:tytil_realty/views/home/widget/manage_project_bottom_sheet.dart';
-import 'package:tytil_realty/views/home/your_project_listing_detail_page.dart';
 
 import '../../api_service/app_config.dart';
 import '../../common/common_button.dart';

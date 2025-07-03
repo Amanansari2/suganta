@@ -91,7 +91,7 @@ class ProjectFeatureProperty extends StatelessWidget {
             );
           }
           return SizedBox(
-            height: 460,
+            height: 480,
             child: ListView.builder(
                 shrinkWrap: true,
                 scrollDirection: Axis.horizontal,

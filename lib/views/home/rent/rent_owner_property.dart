@@ -96,7 +96,7 @@ class RentOwnerProperties extends StatelessWidget {
           }
 
           return SizedBox(
-            height: 440,
+            height: 460,
             child: ListView.builder(
               shrinkWrap: true,
               scrollDirection: Axis.horizontal,

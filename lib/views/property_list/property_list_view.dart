@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:share_plus/share_plus.dart';
-import 'package:tytil_realty/views/property_list/widget/filter_bottom_sheet.dart';
 
 import '../../common/common_rich_text.dart';
 import '../../configs/app_color.dart';
@@ -147,7 +146,7 @@ class PropertyListView extends StatelessWidget {
                   ),
                   child: GestureDetector(
                     onTap: () {
-                      filterBottomSheet(context);
+                      // filterBottomSheet(context);
                     },
                     child: Image.asset(
                       Assets.images.filter.path,

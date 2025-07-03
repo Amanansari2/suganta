@@ -54,7 +54,7 @@ class RegisterView extends StatelessWidget {
                 Align(
                   alignment: Alignment.topCenter,
                   child: Image.asset(
-                    "assets/myImg/logo.jpg",
+                    "assets/myImg/tyilcom.png",
                     width: AppSize.appSize282 ,
                     height: AppSize.appSize150,
                   ),
@@ -352,8 +352,6 @@ class RegisterView extends StatelessWidget {
                   child: registerController.isLoading.value
                   ? const CircularProgressIndicator(color: AppColor.whiteColor,)
                       : Text(AppString.continueButton, style: AppStyle.heading5Medium(color: AppColor.whiteColor),)
-
-                  ,
                 )
                 )
 
@@ -373,7 +371,7 @@ class RegisterView extends StatelessWidget {
           Align(
             alignment: Alignment.topCenter,
             child: Image.asset(
-              "assets/myImg/logo.jpg",
+              "assets/myImg/tyilcom.png",
               width: AppSize.appSize282 ,
               height: AppSize.appSize150,
             ),

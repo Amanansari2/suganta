@@ -137,7 +137,7 @@ class ProfileView extends StatelessWidget {
                   } else if (index == AppSize.size2) {
                     Get.toNamed(AppRoutes.languagesView);
                   } else if (index == AppSize.size3) {
-                    Get.toNamed(AppRoutes.communitySettingsView);
+                    // Get.toNamed(AppRoutes.communitySettingsView);
                   } else if (index == AppSize.size4) {
                     Get.toNamed(AppRoutes.privacyPolicyView);
                   } else if (index == AppSize.size5) {
